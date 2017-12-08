@@ -1,11 +1,30 @@
 {
   "name": "react-music-store",
   "version": "0.1.0",
+  "description": "A responsive Music Store component built with React.js",
+  "keywords": [
+    "react",
+    "react-component",
+    "music",
+    "player",
+    "audio",
+    "store"
+  ],
   "private": true,
+  "main": "src/MusicStore.js",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17"
+  },
+  "author": "Mario Hoyos",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mariohoyos92/react-music-store.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mariohoyos92/react-music-store/issues"
   },
   "scripts": {
     "start": "react-scripts start",
