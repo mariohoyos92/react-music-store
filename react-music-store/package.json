@@ -25,5 +25,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://mariohoyos92.github.io/react-music-store/"
+  "homepage": "https://mariohoyos92.github.io/react-music-store"
 }
