@@ -1,8 +1,23 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 import "./MusicStore.css";
 
 class MusicStore extends Component {
+  static propTypes = {
+    accent: PropTypes.string,
+    playlist: PropTypes.array.isRequired,
+    pictureSrc: PropTypes.string,
+    headerAndIconClr: PropTypes.string
+  };
+
+  static defaultProps = {
+    accent: "rgb(128, 1, 1)",
+    playlist: [],
+    pictureSrc:
+      "https://s3.us-east-2.amazonaws.com/hassle-free-beats-untagged-audio/header-logo.png",
+    headerAndIconClr: "#6d666e"
+  };
   constructor(props) {
     super(props);
 

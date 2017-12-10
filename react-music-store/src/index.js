@@ -156,11 +156,6 @@ ReactDOM.render(
         title: "You Want Me"
       }
     ]}
-    accent="rgb(128, 1, 1)"
-    pictureSrc={
-      "https://s3.us-east-2.amazonaws.com/hassle-free-beats-untagged-audio/header-logo.png"
-    }
-    headerAndIconClr="black"
   />,
   document.getElementById("root")
 );
