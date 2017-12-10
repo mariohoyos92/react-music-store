@@ -2,14 +2,7 @@
   "name": "react-music-store",
   "version": "0.1.0",
   "description": "A responsive Music Store component built with React.js",
-  "keywords": [
-    "react",
-    "react-component",
-    "music",
-    "player",
-    "audio",
-    "store"
-  ],
+  "keywords": ["react", "react-component", "music", "player", "audio", "store"],
   "private": true,
   "main": "src/MusicStore.js",
   "dependencies": {
@@ -31,5 +24,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "homepage": "https://mariohoyos92.github.io/react-music-store/"
 }
